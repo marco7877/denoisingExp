@@ -97,8 +97,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="stim_dur = 0" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="stim_dur = 0;&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="stim_dur = ((Math.random() * (4.5 - 3)) + 2);&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="stim_dur = random()*(4.5-3)+2" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="stim_dur = ((Math.random() * 2.7) + 2);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="stim_dur = random()*(2.7)+2" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -114,7 +114,7 @@
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="4" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="Open Sans" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
@@ -130,7 +130,7 @@
         <Param name="stopType" updates="None" val="time (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="$stim_dur" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="$str(stim_dur) + &quot; sec.&quot;" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$str(stim_dur) + &quot; sec.&quot;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
