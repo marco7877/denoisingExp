@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on Mon 15 May 2023 11:28:04 AM 
+    on Mon 15 May 2023 01:39:45 PM 
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -485,7 +485,7 @@ text_2 = visual.TextStim(win=win, name='text_2',
 # Initialize components for Routine "sartén"
 sarténClock = core.Clock()
 text_22 = visual.TextStim(win=win, name='text_22',
-    text='sarté\n',
+    text='sartén\n',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
