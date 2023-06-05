@@ -63,7 +63,6 @@
     <Param name="tbSerialNo" updates="None" val="" valType="str"/>
   </Settings>
   <Routines>
-    <Routine name="trial"/>
     <Routine name="start">
       <TextComponent name="text">
         <Param name="color" updates="constant" val="white" valType="color"/>
@@ -84,9 +83,9 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="This is a test " valType="str"/>
+        <Param name="text" updates="constant" val="Esto es un piloto.&amp;#10;Por favor, lee la palabra que veas en voz alta." valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -106,7 +105,7 @@
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Routine" updates="constant" val="psychoJS.experiment.addData(&quot;FixDur&quot;, stim_dur);&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="thisExp.addData(&quot;FixDur&quot;, stim_dur)" valType="extendedCode"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
         <Param name="name" updates="None" val="code" valType="code"/>
       </CodeComponent>
       <TextComponent name="text_2">
@@ -114,7 +113,7 @@
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="contrast" updates="constant" val="1" valType="num"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="4" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
         <Param name="font" updates="constant" val="Open Sans" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
@@ -127,10 +126,10 @@
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="time (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="$stim_dur" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5.7" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="set every repeat" val="$str(stim_dur) + &quot; sec.&quot;" valType="str"/>
+        <Param name="text" updates="set every repeat" val="+" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
@@ -155,60 +154,14 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="manzana" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
-      <MicrophoneComponent name="mic">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
     </Routine>
     <Routine name="salmón">
-      <MicrophoneComponent name="mic_2">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_2" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_4">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -228,7 +181,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="salmón" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -278,7 +231,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="fideos" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -286,29 +239,6 @@
       </TextComponent>
     </Routine>
     <Routine name="martillo">
-      <MicrophoneComponent name="mic_4">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_4" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_5">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -328,7 +258,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="martillo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -336,29 +266,6 @@
       </TextComponent>
     </Routine>
     <Routine name="vinagre">
-      <MicrophoneComponent name="mic_5">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_5" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_6">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -378,7 +285,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="vinagre" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -405,7 +312,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -432,7 +339,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -440,29 +347,6 @@
       </TextComponent>
     </Routine>
     <Routine name="naranja">
-      <MicrophoneComponent name="mic_6">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_6" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_9">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -482,7 +366,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="naranja" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -532,7 +416,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="ficha" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -582,7 +466,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bacalao" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -590,29 +474,6 @@
       </TextComponent>
     </Routine>
     <Routine name="nectarina">
-      <MicrophoneComponent name="mic_9">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_9" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_12">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -640,29 +501,6 @@
       </TextComponent>
     </Routine>
     <Routine name="violín">
-      <MicrophoneComponent name="mic_10">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_10" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_13">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -682,7 +520,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="violín" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -690,29 +528,6 @@
       </TextComponent>
     </Routine>
     <Routine name="pasas">
-      <MicrophoneComponent name="mic_11">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_11" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="Voice (16kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_14">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -732,7 +547,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pasas" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -767,29 +582,6 @@
       </TextComponent>
     </Routine>
     <Routine name="monitor">
-      <MicrophoneComponent name="mic_12">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_12" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_16">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -809,7 +601,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="monitor" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -836,7 +628,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -844,29 +636,6 @@
       </TextComponent>
     </Routine>
     <Routine name="nevera">
-      <MicrophoneComponent name="mic_14">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_14" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_18">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -886,7 +655,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="nevera" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -894,29 +663,6 @@
       </TextComponent>
     </Routine>
     <Routine name="palillo">
-      <MicrophoneComponent name="mic_15">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_15" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_19">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -936,7 +682,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="palillo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -944,29 +690,6 @@
       </TextComponent>
     </Routine>
     <Routine name="muñeco">
-      <MicrophoneComponent name="mic_16">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_16" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="Voice (16kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_20">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -986,7 +709,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="muñeco" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -994,29 +717,6 @@
       </TextComponent>
     </Routine>
     <Routine name="pincel">
-      <MicrophoneComponent name="mic_17">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="True" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic_17" valType="code"/>
-        <Param name="outputType" updates="None" val="default" valType="code"/>
-        <Param name="sampleRate" updates="None" val="Voice (16kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
       <TextComponent name="text_21">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -1036,7 +736,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pincel" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1063,7 +763,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sartén&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1090,7 +790,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="mazapán" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1117,7 +817,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bombón" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1144,7 +844,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="boina" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1171,7 +871,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="mantequila" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1198,7 +898,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sopa" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1225,7 +925,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bocadillo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1252,7 +952,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sobre" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1279,7 +979,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="filtro" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1306,7 +1006,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxxxxxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1333,7 +1033,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pañuelo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1360,7 +1060,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="paletilla" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1387,7 +1087,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bombilla" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1414,7 +1114,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="fabada" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1441,7 +1141,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pala" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1468,7 +1168,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="farol" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1495,7 +1195,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="neceser" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1522,7 +1222,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1549,7 +1249,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="salchicha" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1576,7 +1276,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sello" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1603,7 +1303,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pavo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1630,7 +1330,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="navaja" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1657,7 +1357,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sable" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1684,7 +1384,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="mango" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1711,7 +1411,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1738,7 +1438,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="filete" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1765,7 +1465,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="fondúe" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1792,7 +1492,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1819,7 +1519,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="setas" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1846,7 +1546,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="manguera" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1873,7 +1573,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="fajitas" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1900,7 +1600,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="máscara" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1927,7 +1627,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bolígrafo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1954,7 +1654,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="paella" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -1981,7 +1681,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="melón" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2008,7 +1708,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="nachos" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2035,7 +1735,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="nuez" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2062,7 +1762,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="nata" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2089,7 +1789,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="funda" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2116,7 +1816,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="balde" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2143,7 +1843,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="paraguas" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2170,7 +1870,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="soga" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2197,7 +1897,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="pollo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2224,7 +1924,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="fusil" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2251,7 +1951,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="sandía" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2278,7 +1978,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="xxxxxxx" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2305,7 +2005,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="naipes" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2332,7 +2032,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="bizcocho" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -2386,7 +2086,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="3" valType="code"/>
+        <Param name="stopVal" updates="constant" val=".3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="nudo" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>

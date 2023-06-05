@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on Mon 15 May 2023 03:37:21 PM 
+    on Mon 05 Jun 2023 09:25:32 AM 
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -95,7 +95,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 # Initialize components for Routine "start"
 startClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='This is a test ',
+    text='Esto es un piloto.\nPor favor, lee la palabra que veas en voz alta.',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
@@ -114,14 +114,13 @@ text_3 = visual.TextStim(win=win, name='text_3',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "salmón"
 salmónClock = core.Clock()
@@ -135,14 +134,13 @@ text_4 = visual.TextStim(win=win, name='text_4',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "fideos"
 fideosClock = core.Clock()
@@ -156,14 +154,13 @@ s = visual.TextStim(win=win, name='s',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "martillo"
 martilloClock = core.Clock()
@@ -177,14 +174,13 @@ text_5 = visual.TextStim(win=win, name='text_5',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "vinagre"
 vinagreClock = core.Clock()
@@ -198,14 +194,13 @@ text_6 = visual.TextStim(win=win, name='text_6',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxx"
 xxxxClock = core.Clock()
@@ -219,14 +214,13 @@ text_7 = visual.TextStim(win=win, name='text_7',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxx"
 xxxxxClock = core.Clock()
@@ -240,14 +234,13 @@ text_8 = visual.TextStim(win=win, name='text_8',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "naranja"
 naranjaClock = core.Clock()
@@ -261,14 +254,13 @@ text_9 = visual.TextStim(win=win, name='text_9',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "ficha"
 fichaClock = core.Clock()
@@ -282,14 +274,13 @@ text_10 = visual.TextStim(win=win, name='text_10',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bacalao"
 bacalaoClock = core.Clock()
@@ -303,14 +294,13 @@ text_11 = visual.TextStim(win=win, name='text_11',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "nectarina"
 nectarinaClock = core.Clock()
@@ -324,14 +314,13 @@ text_12 = visual.TextStim(win=win, name='text_12',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "violín"
 violínClock = core.Clock()
@@ -345,14 +334,13 @@ text_13 = visual.TextStim(win=win, name='text_13',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxxx"
 xxxxxxClock = core.Clock()
@@ -366,14 +354,13 @@ text_15 = visual.TextStim(win=win, name='text_15',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "monitor"
 monitorClock = core.Clock()
@@ -387,14 +374,13 @@ text_16 = visual.TextStim(win=win, name='text_16',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxxxxx"
 xxxxxxxxClock = core.Clock()
@@ -408,14 +394,13 @@ text_17 = visual.TextStim(win=win, name='text_17',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "nevera"
 neveraClock = core.Clock()
@@ -429,14 +414,13 @@ text_18 = visual.TextStim(win=win, name='text_18',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "palillo"
 palilloClock = core.Clock()
@@ -450,14 +434,13 @@ text_19 = visual.TextStim(win=win, name='text_19',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "muñeco"
 muñecoClock = core.Clock()
@@ -471,14 +454,13 @@ text_20 = visual.TextStim(win=win, name='text_20',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "pincel"
 pincelClock = core.Clock()
@@ -492,14 +474,13 @@ text_21 = visual.TextStim(win=win, name='text_21',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sartén"
 sarténClock = core.Clock()
@@ -513,14 +494,13 @@ text_22 = visual.TextStim(win=win, name='text_22',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "mazapán"
 mazapánClock = core.Clock()
@@ -534,14 +514,13 @@ text_23 = visual.TextStim(win=win, name='text_23',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bombón"
 bombónClock = core.Clock()
@@ -555,14 +534,13 @@ text_24 = visual.TextStim(win=win, name='text_24',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "boina"
 boinaClock = core.Clock()
@@ -576,14 +554,13 @@ text_25 = visual.TextStim(win=win, name='text_25',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "mantequilla"
 mantequillaClock = core.Clock()
@@ -597,14 +574,13 @@ text_26 = visual.TextStim(win=win, name='text_26',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sopa"
 sopaClock = core.Clock()
@@ -618,14 +594,13 @@ text_27 = visual.TextStim(win=win, name='text_27',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bocadillo"
 bocadilloClock = core.Clock()
@@ -639,14 +614,13 @@ text_28 = visual.TextStim(win=win, name='text_28',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sobre"
 sobreClock = core.Clock()
@@ -660,14 +634,13 @@ text_29 = visual.TextStim(win=win, name='text_29',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "filtro"
 filtroClock = core.Clock()
@@ -701,14 +674,13 @@ text_32 = visual.TextStim(win=win, name='text_32',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "paletilla"
 paletillaClock = core.Clock()
@@ -722,14 +694,13 @@ text_33 = visual.TextStim(win=win, name='text_33',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bombilla"
 bombillaClock = core.Clock()
@@ -743,14 +714,13 @@ text_34 = visual.TextStim(win=win, name='text_34',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "fabada"
 fabadaClock = core.Clock()
@@ -764,14 +734,13 @@ text_35 = visual.TextStim(win=win, name='text_35',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "pala"
 palaClock = core.Clock()
@@ -785,14 +754,13 @@ text_36 = visual.TextStim(win=win, name='text_36',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "farol"
 farolClock = core.Clock()
@@ -806,14 +774,13 @@ text_37 = visual.TextStim(win=win, name='text_37',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "neceser"
 neceserClock = core.Clock()
@@ -827,14 +794,13 @@ text_38 = visual.TextStim(win=win, name='text_38',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxx_2"
 xxxxx_2Clock = core.Clock()
@@ -848,14 +814,13 @@ text_39 = visual.TextStim(win=win, name='text_39',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "salchicha"
 salchichaClock = core.Clock()
@@ -869,14 +834,13 @@ text_40 = visual.TextStim(win=win, name='text_40',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sello"
 selloClock = core.Clock()
@@ -890,14 +854,13 @@ text_41 = visual.TextStim(win=win, name='text_41',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "pavo"
 pavoClock = core.Clock()
@@ -911,14 +874,13 @@ text_42 = visual.TextStim(win=win, name='text_42',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "navaja"
 navajaClock = core.Clock()
@@ -932,14 +894,13 @@ text_43 = visual.TextStim(win=win, name='text_43',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sable"
 sableClock = core.Clock()
@@ -963,14 +924,13 @@ text_45 = visual.TextStim(win=win, name='text_45',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "mango"
 mangoClock = core.Clock()
@@ -984,14 +944,13 @@ text_46 = visual.TextStim(win=win, name='text_46',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxx_2"
 xxxx_2Clock = core.Clock()
@@ -1005,14 +964,13 @@ text_47 = visual.TextStim(win=win, name='text_47',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "filete"
 fileteClock = core.Clock()
@@ -1026,14 +984,13 @@ text_48 = visual.TextStim(win=win, name='text_48',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "fondúe"
 fondúeClock = core.Clock()
@@ -1047,14 +1004,13 @@ text_49 = visual.TextStim(win=win, name='text_49',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxxxxx_2"
 xxxxxxxx_2Clock = core.Clock()
@@ -1068,14 +1024,13 @@ text_50 = visual.TextStim(win=win, name='text_50',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "setas"
 setasClock = core.Clock()
@@ -1089,14 +1044,13 @@ text_51 = visual.TextStim(win=win, name='text_51',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "manguera"
 mangueraClock = core.Clock()
@@ -1110,14 +1064,13 @@ text_52 = visual.TextStim(win=win, name='text_52',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "fajitas"
 fajitasClock = core.Clock()
@@ -1131,14 +1084,13 @@ text_53 = visual.TextStim(win=win, name='text_53',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "máscara"
 máscaraClock = core.Clock()
@@ -1152,14 +1104,13 @@ text_54 = visual.TextStim(win=win, name='text_54',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bolígrafo"
 bolígrafoClock = core.Clock()
@@ -1173,14 +1124,13 @@ text_55 = visual.TextStim(win=win, name='text_55',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "paella"
 paellaClock = core.Clock()
@@ -1194,14 +1144,13 @@ text_56 = visual.TextStim(win=win, name='text_56',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "melóm"
 melómClock = core.Clock()
@@ -1215,14 +1164,13 @@ text_57 = visual.TextStim(win=win, name='text_57',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "nachos"
 nachosClock = core.Clock()
@@ -1236,14 +1184,13 @@ text_58 = visual.TextStim(win=win, name='text_58',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "nuez"
 nuezClock = core.Clock()
@@ -1257,14 +1204,13 @@ text_59 = visual.TextStim(win=win, name='text_59',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "nata"
 nataClock = core.Clock()
@@ -1278,14 +1224,13 @@ text_60 = visual.TextStim(win=win, name='text_60',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "funda"
 fundaClock = core.Clock()
@@ -1299,14 +1244,13 @@ text_61 = visual.TextStim(win=win, name='text_61',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "balde"
 baldeClock = core.Clock()
@@ -1320,14 +1264,13 @@ text_62 = visual.TextStim(win=win, name='text_62',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "paraguas"
 paraguasClock = core.Clock()
@@ -1341,14 +1284,13 @@ text_63 = visual.TextStim(win=win, name='text_63',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "soga"
 sogaClock = core.Clock()
@@ -1362,14 +1304,13 @@ text_64 = visual.TextStim(win=win, name='text_64',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "pollo"
 polloClock = core.Clock()
@@ -1383,14 +1324,13 @@ text_65 = visual.TextStim(win=win, name='text_65',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "fusil"
 fusilClock = core.Clock()
@@ -1404,14 +1344,13 @@ text_66 = visual.TextStim(win=win, name='text_66',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "sandía"
 sandíaClock = core.Clock()
@@ -1425,14 +1364,13 @@ text_67 = visual.TextStim(win=win, name='text_67',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxxxx"
 xxxxxxxClock = core.Clock()
@@ -1446,14 +1384,13 @@ text_68 = visual.TextStim(win=win, name='text_68',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "naipes"
 naipesClock = core.Clock()
@@ -1467,14 +1404,13 @@ text_69 = visual.TextStim(win=win, name='text_69',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "bizcocho"
 bizcochoClock = core.Clock()
@@ -1488,14 +1424,13 @@ text_70 = visual.TextStim(win=win, name='text_70',
 
 # Initialize components for Routine "ISI"
 ISIClock = core.Clock()
-stim_dur = 0
 text_2 = visual.TextStim(win=win, name='text_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-1.0);
+    depth=0.0);
 
 # Initialize components for Routine "xxxxxx_2"
 xxxxxx_2Clock = core.Clock()
@@ -1549,7 +1484,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text.setAutoDraw(True)
     if text.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text.tStartRefresh + 1.0-frameTolerance:
+        if tThisFlipGlobal > text.tStartRefresh + 1-frameTolerance:
             # keep track of stop time/frame for later
             text.tStop = t  # not accounting for scr refresh
             text.frameNStop = frameN  # exact frame index
@@ -1582,7 +1517,7 @@ thisExp.addData('text.stopped', text.tStopRefresh)
 
 # ------Prepare to start Routine "manzana"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 manzanaComponents = [text_3]
@@ -1618,7 +1553,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_3.setAutoDraw(True)
     if text_3.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_3.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_3.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_3.tStop = t  # not accounting for scr refresh
             text_3.frameNStop = frameN  # exact frame index
@@ -1651,9 +1586,9 @@ thisExp.addData('text_3.stopped', text_3.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -1670,7 +1605,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -1687,8 +1622,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -1716,15 +1651,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "salmón"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 salmónComponents = [text_4]
@@ -1760,7 +1692,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_4.setAutoDraw(True)
     if text_4.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_4.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_4.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_4.tStop = t  # not accounting for scr refresh
             text_4.frameNStop = frameN  # exact frame index
@@ -1793,9 +1725,9 @@ thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -1812,7 +1744,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -1829,8 +1761,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -1858,15 +1790,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "fideos"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fideosComponents = [s]
@@ -1902,7 +1831,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         s.setAutoDraw(True)
     if s.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > s.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > s.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             s.tStop = t  # not accounting for scr refresh
             s.frameNStop = frameN  # exact frame index
@@ -1935,9 +1864,9 @@ thisExp.addData('s.stopped', s.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -1954,7 +1883,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -1971,8 +1900,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2000,15 +1929,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "martillo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 martilloComponents = [text_5]
@@ -2044,7 +1970,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_5.setAutoDraw(True)
     if text_5.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_5.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_5.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_5.tStop = t  # not accounting for scr refresh
             text_5.frameNStop = frameN  # exact frame index
@@ -2077,9 +2003,9 @@ thisExp.addData('text_5.stopped', text_5.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2096,7 +2022,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2113,8 +2039,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2142,15 +2068,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "vinagre"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 vinagreComponents = [text_6]
@@ -2186,7 +2109,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_6.setAutoDraw(True)
     if text_6.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_6.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_6.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_6.tStop = t  # not accounting for scr refresh
             text_6.frameNStop = frameN  # exact frame index
@@ -2219,9 +2142,9 @@ thisExp.addData('text_6.stopped', text_6.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2238,7 +2161,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2255,8 +2178,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2284,15 +2207,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxx"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxComponents = [text_7]
@@ -2328,7 +2248,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_7.setAutoDraw(True)
     if text_7.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_7.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_7.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_7.tStop = t  # not accounting for scr refresh
             text_7.frameNStop = frameN  # exact frame index
@@ -2361,9 +2281,9 @@ thisExp.addData('text_7.stopped', text_7.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2380,7 +2300,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2397,8 +2317,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2426,15 +2346,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxx"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxxComponents = [text_8]
@@ -2470,7 +2387,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_8.setAutoDraw(True)
     if text_8.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_8.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_8.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_8.tStop = t  # not accounting for scr refresh
             text_8.frameNStop = frameN  # exact frame index
@@ -2503,9 +2420,9 @@ thisExp.addData('text_8.stopped', text_8.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2522,7 +2439,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2539,8 +2456,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2568,15 +2485,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "naranja"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 naranjaComponents = [text_9]
@@ -2612,7 +2526,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_9.setAutoDraw(True)
     if text_9.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_9.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_9.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_9.tStop = t  # not accounting for scr refresh
             text_9.frameNStop = frameN  # exact frame index
@@ -2645,9 +2559,9 @@ thisExp.addData('text_9.stopped', text_9.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2664,7 +2578,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2681,8 +2595,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2710,15 +2624,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "ficha"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fichaComponents = [text_10]
@@ -2754,7 +2665,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_10.setAutoDraw(True)
     if text_10.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_10.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_10.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_10.tStop = t  # not accounting for scr refresh
             text_10.frameNStop = frameN  # exact frame index
@@ -2787,9 +2698,9 @@ thisExp.addData('text_10.stopped', text_10.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2806,7 +2717,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2823,8 +2734,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2852,15 +2763,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bacalao"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bacalaoComponents = [text_11]
@@ -2896,7 +2804,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_11.setAutoDraw(True)
     if text_11.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_11.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_11.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_11.tStop = t  # not accounting for scr refresh
             text_11.frameNStop = frameN  # exact frame index
@@ -2929,9 +2837,9 @@ thisExp.addData('text_11.stopped', text_11.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -2948,7 +2856,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -2965,8 +2873,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -2994,11 +2902,8 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "nectarina"-------
 continueRoutine = True
@@ -3071,9 +2976,9 @@ thisExp.addData('text_12.stopped', text_12.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3090,7 +2995,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3107,8 +3012,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3136,15 +3041,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "violín"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 violínComponents = [text_13]
@@ -3180,7 +3082,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_13.setAutoDraw(True)
     if text_13.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_13.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_13.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_13.tStop = t  # not accounting for scr refresh
             text_13.frameNStop = frameN  # exact frame index
@@ -3213,9 +3115,9 @@ thisExp.addData('text_13.stopped', text_13.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3232,7 +3134,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3249,8 +3151,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3278,11 +3180,8 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxxx"-------
 continueRoutine = True
@@ -3355,9 +3254,9 @@ thisExp.addData('text_15.stopped', text_15.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3374,7 +3273,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3391,8 +3290,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3420,15 +3319,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "monitor"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 monitorComponents = [text_16]
@@ -3464,7 +3360,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_16.setAutoDraw(True)
     if text_16.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_16.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_16.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_16.tStop = t  # not accounting for scr refresh
             text_16.frameNStop = frameN  # exact frame index
@@ -3497,9 +3393,9 @@ thisExp.addData('text_16.stopped', text_16.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3516,7 +3412,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3533,8 +3429,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3562,15 +3458,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxxxxx"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxxxxxComponents = [text_17]
@@ -3606,7 +3499,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_17.setAutoDraw(True)
     if text_17.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_17.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_17.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_17.tStop = t  # not accounting for scr refresh
             text_17.frameNStop = frameN  # exact frame index
@@ -3639,9 +3532,9 @@ thisExp.addData('text_17.stopped', text_17.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3658,7 +3551,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3675,8 +3568,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3704,15 +3597,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "nevera"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 neveraComponents = [text_18]
@@ -3748,7 +3638,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_18.setAutoDraw(True)
     if text_18.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_18.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_18.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_18.tStop = t  # not accounting for scr refresh
             text_18.frameNStop = frameN  # exact frame index
@@ -3781,9 +3671,9 @@ thisExp.addData('text_18.stopped', text_18.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3800,7 +3690,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3817,8 +3707,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3846,15 +3736,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "palillo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 palilloComponents = [text_19]
@@ -3890,7 +3777,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_19.setAutoDraw(True)
     if text_19.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_19.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_19.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_19.tStop = t  # not accounting for scr refresh
             text_19.frameNStop = frameN  # exact frame index
@@ -3923,9 +3810,9 @@ thisExp.addData('text_19.stopped', text_19.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -3942,7 +3829,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -3959,8 +3846,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -3988,15 +3875,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "muñeco"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 muñecoComponents = [text_20]
@@ -4032,7 +3916,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_20.setAutoDraw(True)
     if text_20.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_20.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_20.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_20.tStop = t  # not accounting for scr refresh
             text_20.frameNStop = frameN  # exact frame index
@@ -4065,9 +3949,9 @@ thisExp.addData('text_20.stopped', text_20.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4084,7 +3968,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4101,8 +3985,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4130,15 +4014,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "pincel"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 pincelComponents = [text_21]
@@ -4174,7 +4055,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_21.setAutoDraw(True)
     if text_21.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_21.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_21.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_21.tStop = t  # not accounting for scr refresh
             text_21.frameNStop = frameN  # exact frame index
@@ -4207,9 +4088,9 @@ thisExp.addData('text_21.stopped', text_21.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4226,7 +4107,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4243,8 +4124,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4272,15 +4153,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sartén"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sarténComponents = [text_22]
@@ -4316,7 +4194,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_22.setAutoDraw(True)
     if text_22.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_22.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_22.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_22.tStop = t  # not accounting for scr refresh
             text_22.frameNStop = frameN  # exact frame index
@@ -4349,9 +4227,9 @@ thisExp.addData('text_22.stopped', text_22.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4368,7 +4246,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4385,8 +4263,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4414,15 +4292,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "mazapán"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 mazapánComponents = [text_23]
@@ -4458,7 +4333,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_23.setAutoDraw(True)
     if text_23.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_23.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_23.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_23.tStop = t  # not accounting for scr refresh
             text_23.frameNStop = frameN  # exact frame index
@@ -4491,9 +4366,9 @@ thisExp.addData('text_23.stopped', text_23.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4510,7 +4385,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4527,8 +4402,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4556,15 +4431,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bombón"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bombónComponents = [text_24]
@@ -4600,7 +4472,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_24.setAutoDraw(True)
     if text_24.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_24.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_24.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_24.tStop = t  # not accounting for scr refresh
             text_24.frameNStop = frameN  # exact frame index
@@ -4633,9 +4505,9 @@ thisExp.addData('text_24.stopped', text_24.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4652,7 +4524,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4669,8 +4541,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4698,15 +4570,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "boina"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 boinaComponents = [text_25]
@@ -4742,7 +4611,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_25.setAutoDraw(True)
     if text_25.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_25.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_25.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_25.tStop = t  # not accounting for scr refresh
             text_25.frameNStop = frameN  # exact frame index
@@ -4775,9 +4644,9 @@ thisExp.addData('text_25.stopped', text_25.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4794,7 +4663,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4811,8 +4680,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4840,15 +4709,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "mantequilla"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 mantequillaComponents = [text_26]
@@ -4884,7 +4750,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_26.setAutoDraw(True)
     if text_26.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_26.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_26.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_26.tStop = t  # not accounting for scr refresh
             text_26.frameNStop = frameN  # exact frame index
@@ -4917,9 +4783,9 @@ thisExp.addData('text_26.stopped', text_26.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -4936,7 +4802,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -4953,8 +4819,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -4982,15 +4848,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sopa"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sopaComponents = [text_27]
@@ -5026,7 +4889,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_27.setAutoDraw(True)
     if text_27.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_27.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_27.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_27.tStop = t  # not accounting for scr refresh
             text_27.frameNStop = frameN  # exact frame index
@@ -5059,9 +4922,9 @@ thisExp.addData('text_27.stopped', text_27.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5078,7 +4941,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5095,8 +4958,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5124,15 +4987,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bocadillo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bocadilloComponents = [text_28]
@@ -5168,7 +5028,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_28.setAutoDraw(True)
     if text_28.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_28.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_28.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_28.tStop = t  # not accounting for scr refresh
             text_28.frameNStop = frameN  # exact frame index
@@ -5201,9 +5061,9 @@ thisExp.addData('text_28.stopped', text_28.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5220,7 +5080,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5237,8 +5097,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5266,15 +5126,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sobre"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sobreComponents = [text_29]
@@ -5310,7 +5167,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_29.setAutoDraw(True)
     if text_29.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_29.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_29.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_29.tStop = t  # not accounting for scr refresh
             text_29.frameNStop = frameN  # exact frame index
@@ -5343,9 +5200,9 @@ thisExp.addData('text_29.stopped', text_29.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5362,7 +5219,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5379,8 +5236,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5408,15 +5265,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "filtro"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 filtroComponents = [text_30]
@@ -5452,7 +5306,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_30.setAutoDraw(True)
     if text_30.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_30.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_30.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_30.tStop = t  # not accounting for scr refresh
             text_30.frameNStop = frameN  # exact frame index
@@ -5485,7 +5339,7 @@ thisExp.addData('text_30.stopped', text_30.tStopRefresh)
 
 # ------Prepare to start Routine "xxxxxxxxxxx"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxxxxxxxxComponents = [text_31]
@@ -5521,7 +5375,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_31.setAutoDraw(True)
     if text_31.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_31.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_31.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_31.tStop = t  # not accounting for scr refresh
             text_31.frameNStop = frameN  # exact frame index
@@ -5554,7 +5408,7 @@ thisExp.addData('text_31.stopped', text_31.tStopRefresh)
 
 # ------Prepare to start Routine "pañuelo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 pañueloComponents = [text_32]
@@ -5590,7 +5444,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_32.setAutoDraw(True)
     if text_32.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_32.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_32.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_32.tStop = t  # not accounting for scr refresh
             text_32.frameNStop = frameN  # exact frame index
@@ -5623,9 +5477,9 @@ thisExp.addData('text_32.stopped', text_32.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5642,7 +5496,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5659,8 +5513,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5688,15 +5542,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "paletilla"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 paletillaComponents = [text_33]
@@ -5732,7 +5583,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_33.setAutoDraw(True)
     if text_33.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_33.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_33.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_33.tStop = t  # not accounting for scr refresh
             text_33.frameNStop = frameN  # exact frame index
@@ -5765,9 +5616,9 @@ thisExp.addData('text_33.stopped', text_33.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5784,7 +5635,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5801,8 +5652,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5830,15 +5681,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bombilla"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bombillaComponents = [text_34]
@@ -5874,7 +5722,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_34.setAutoDraw(True)
     if text_34.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_34.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_34.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_34.tStop = t  # not accounting for scr refresh
             text_34.frameNStop = frameN  # exact frame index
@@ -5907,9 +5755,9 @@ thisExp.addData('text_34.stopped', text_34.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -5926,7 +5774,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -5943,8 +5791,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -5972,15 +5820,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "fabada"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fabadaComponents = [text_35]
@@ -6016,7 +5861,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_35.setAutoDraw(True)
     if text_35.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_35.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_35.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_35.tStop = t  # not accounting for scr refresh
             text_35.frameNStop = frameN  # exact frame index
@@ -6049,9 +5894,9 @@ thisExp.addData('text_35.stopped', text_35.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6068,7 +5913,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6085,8 +5930,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6114,15 +5959,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "pala"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 palaComponents = [text_36]
@@ -6158,7 +6000,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_36.setAutoDraw(True)
     if text_36.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_36.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_36.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_36.tStop = t  # not accounting for scr refresh
             text_36.frameNStop = frameN  # exact frame index
@@ -6191,9 +6033,9 @@ thisExp.addData('text_36.stopped', text_36.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6210,7 +6052,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6227,8 +6069,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6256,15 +6098,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "farol"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 farolComponents = [text_37]
@@ -6300,7 +6139,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_37.setAutoDraw(True)
     if text_37.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_37.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_37.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_37.tStop = t  # not accounting for scr refresh
             text_37.frameNStop = frameN  # exact frame index
@@ -6333,9 +6172,9 @@ thisExp.addData('text_37.stopped', text_37.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6352,7 +6191,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6369,8 +6208,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6398,15 +6237,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "neceser"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 neceserComponents = [text_38]
@@ -6442,7 +6278,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_38.setAutoDraw(True)
     if text_38.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_38.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_38.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_38.tStop = t  # not accounting for scr refresh
             text_38.frameNStop = frameN  # exact frame index
@@ -6475,9 +6311,9 @@ thisExp.addData('text_38.stopped', text_38.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6494,7 +6330,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6511,8 +6347,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6540,15 +6376,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxx_2"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxx_2Components = [text_39]
@@ -6584,7 +6417,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_39.setAutoDraw(True)
     if text_39.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_39.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_39.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_39.tStop = t  # not accounting for scr refresh
             text_39.frameNStop = frameN  # exact frame index
@@ -6617,9 +6450,9 @@ thisExp.addData('text_39.stopped', text_39.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6636,7 +6469,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6653,8 +6486,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6682,15 +6515,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "salchicha"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 salchichaComponents = [text_40]
@@ -6726,7 +6556,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_40.setAutoDraw(True)
     if text_40.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_40.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_40.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_40.tStop = t  # not accounting for scr refresh
             text_40.frameNStop = frameN  # exact frame index
@@ -6759,9 +6589,9 @@ thisExp.addData('text_40.stopped', text_40.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6778,7 +6608,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6795,8 +6625,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6824,15 +6654,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sello"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 selloComponents = [text_41]
@@ -6868,7 +6695,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_41.setAutoDraw(True)
     if text_41.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_41.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_41.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_41.tStop = t  # not accounting for scr refresh
             text_41.frameNStop = frameN  # exact frame index
@@ -6901,9 +6728,9 @@ thisExp.addData('text_41.stopped', text_41.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -6920,7 +6747,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -6937,8 +6764,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -6966,15 +6793,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "pavo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 pavoComponents = [text_42]
@@ -7010,7 +6834,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_42.setAutoDraw(True)
     if text_42.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_42.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_42.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_42.tStop = t  # not accounting for scr refresh
             text_42.frameNStop = frameN  # exact frame index
@@ -7043,9 +6867,9 @@ thisExp.addData('text_42.stopped', text_42.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7062,7 +6886,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7079,8 +6903,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7108,15 +6932,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "navaja"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 navajaComponents = [text_43]
@@ -7152,7 +6973,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_43.setAutoDraw(True)
     if text_43.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_43.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_43.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_43.tStop = t  # not accounting for scr refresh
             text_43.frameNStop = frameN  # exact frame index
@@ -7185,9 +7006,9 @@ thisExp.addData('text_43.stopped', text_43.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7204,7 +7025,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7221,8 +7042,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7250,15 +7071,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sable"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sableComponents = [text_44]
@@ -7294,7 +7112,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_44.setAutoDraw(True)
     if text_44.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_44.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_44.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_44.tStop = t  # not accounting for scr refresh
             text_44.frameNStop = frameN  # exact frame index
@@ -7327,7 +7145,7 @@ thisExp.addData('text_44.stopped', text_44.tStopRefresh)
 
 # ------Prepare to start Routine "nudo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 nudoComponents = [text_45]
@@ -7363,7 +7181,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_45.setAutoDraw(True)
     if text_45.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_45.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_45.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_45.tStop = t  # not accounting for scr refresh
             text_45.frameNStop = frameN  # exact frame index
@@ -7396,9 +7214,9 @@ thisExp.addData('text_45.stopped', text_45.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7415,7 +7233,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7432,8 +7250,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7461,15 +7279,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "mango"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 mangoComponents = [text_46]
@@ -7505,7 +7320,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_46.setAutoDraw(True)
     if text_46.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_46.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_46.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_46.tStop = t  # not accounting for scr refresh
             text_46.frameNStop = frameN  # exact frame index
@@ -7538,9 +7353,9 @@ thisExp.addData('text_46.stopped', text_46.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7557,7 +7372,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7574,8 +7389,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7603,15 +7418,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxx_2"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxx_2Components = [text_47]
@@ -7647,7 +7459,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_47.setAutoDraw(True)
     if text_47.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_47.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_47.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_47.tStop = t  # not accounting for scr refresh
             text_47.frameNStop = frameN  # exact frame index
@@ -7680,9 +7492,9 @@ thisExp.addData('text_47.stopped', text_47.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7699,7 +7511,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7716,8 +7528,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7745,15 +7557,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "filete"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fileteComponents = [text_48]
@@ -7789,7 +7598,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_48.setAutoDraw(True)
     if text_48.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_48.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_48.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_48.tStop = t  # not accounting for scr refresh
             text_48.frameNStop = frameN  # exact frame index
@@ -7822,9 +7631,9 @@ thisExp.addData('text_48.stopped', text_48.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7841,7 +7650,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -7858,8 +7667,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -7887,15 +7696,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "fondúe"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fondúeComponents = [text_49]
@@ -7931,7 +7737,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_49.setAutoDraw(True)
     if text_49.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_49.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_49.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_49.tStop = t  # not accounting for scr refresh
             text_49.frameNStop = frameN  # exact frame index
@@ -7964,9 +7770,9 @@ thisExp.addData('text_49.stopped', text_49.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -7983,7 +7789,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8000,8 +7806,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8029,15 +7835,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxxxxx_2"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxxxxx_2Components = [text_50]
@@ -8073,7 +7876,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_50.setAutoDraw(True)
     if text_50.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_50.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_50.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_50.tStop = t  # not accounting for scr refresh
             text_50.frameNStop = frameN  # exact frame index
@@ -8106,9 +7909,9 @@ thisExp.addData('text_50.stopped', text_50.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8125,7 +7928,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8142,8 +7945,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8171,15 +7974,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "setas"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 setasComponents = [text_51]
@@ -8215,7 +8015,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_51.setAutoDraw(True)
     if text_51.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_51.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_51.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_51.tStop = t  # not accounting for scr refresh
             text_51.frameNStop = frameN  # exact frame index
@@ -8248,9 +8048,9 @@ thisExp.addData('text_51.stopped', text_51.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8267,7 +8067,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8284,8 +8084,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8313,15 +8113,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "manguera"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 mangueraComponents = [text_52]
@@ -8357,7 +8154,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_52.setAutoDraw(True)
     if text_52.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_52.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_52.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_52.tStop = t  # not accounting for scr refresh
             text_52.frameNStop = frameN  # exact frame index
@@ -8390,9 +8187,9 @@ thisExp.addData('text_52.stopped', text_52.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8409,7 +8206,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8426,8 +8223,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8455,15 +8252,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "fajitas"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fajitasComponents = [text_53]
@@ -8499,7 +8293,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_53.setAutoDraw(True)
     if text_53.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_53.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_53.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_53.tStop = t  # not accounting for scr refresh
             text_53.frameNStop = frameN  # exact frame index
@@ -8532,9 +8326,9 @@ thisExp.addData('text_53.stopped', text_53.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8551,7 +8345,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8568,8 +8362,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8597,15 +8391,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "máscara"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 máscaraComponents = [text_54]
@@ -8641,7 +8432,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_54.setAutoDraw(True)
     if text_54.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_54.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_54.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_54.tStop = t  # not accounting for scr refresh
             text_54.frameNStop = frameN  # exact frame index
@@ -8674,9 +8465,9 @@ thisExp.addData('text_54.stopped', text_54.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8693,7 +8484,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8710,8 +8501,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8739,15 +8530,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bolígrafo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bolígrafoComponents = [text_55]
@@ -8783,7 +8571,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_55.setAutoDraw(True)
     if text_55.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_55.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_55.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_55.tStop = t  # not accounting for scr refresh
             text_55.frameNStop = frameN  # exact frame index
@@ -8816,9 +8604,9 @@ thisExp.addData('text_55.stopped', text_55.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8835,7 +8623,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8852,8 +8640,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -8881,15 +8669,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "paella"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 paellaComponents = [text_56]
@@ -8925,7 +8710,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_56.setAutoDraw(True)
     if text_56.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_56.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_56.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_56.tStop = t  # not accounting for scr refresh
             text_56.frameNStop = frameN  # exact frame index
@@ -8958,9 +8743,9 @@ thisExp.addData('text_56.stopped', text_56.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -8977,7 +8762,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -8994,8 +8779,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9023,15 +8808,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "melóm"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 melómComponents = [text_57]
@@ -9067,7 +8849,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_57.setAutoDraw(True)
     if text_57.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_57.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_57.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_57.tStop = t  # not accounting for scr refresh
             text_57.frameNStop = frameN  # exact frame index
@@ -9100,9 +8882,9 @@ thisExp.addData('text_57.stopped', text_57.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9119,7 +8901,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9136,8 +8918,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9165,15 +8947,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "nachos"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 nachosComponents = [text_58]
@@ -9209,7 +8988,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_58.setAutoDraw(True)
     if text_58.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_58.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_58.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_58.tStop = t  # not accounting for scr refresh
             text_58.frameNStop = frameN  # exact frame index
@@ -9242,9 +9021,9 @@ thisExp.addData('text_58.stopped', text_58.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9261,7 +9040,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9278,8 +9057,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9307,15 +9086,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "nuez"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 nuezComponents = [text_59]
@@ -9351,7 +9127,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_59.setAutoDraw(True)
     if text_59.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_59.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_59.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_59.tStop = t  # not accounting for scr refresh
             text_59.frameNStop = frameN  # exact frame index
@@ -9384,9 +9160,9 @@ thisExp.addData('text_59.stopped', text_59.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9403,7 +9179,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9420,8 +9196,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9449,15 +9225,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "nata"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 nataComponents = [text_60]
@@ -9493,7 +9266,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_60.setAutoDraw(True)
     if text_60.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_60.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_60.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_60.tStop = t  # not accounting for scr refresh
             text_60.frameNStop = frameN  # exact frame index
@@ -9526,9 +9299,9 @@ thisExp.addData('text_60.stopped', text_60.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9545,7 +9318,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9562,8 +9335,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9591,15 +9364,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "funda"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fundaComponents = [text_61]
@@ -9635,7 +9405,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_61.setAutoDraw(True)
     if text_61.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_61.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_61.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_61.tStop = t  # not accounting for scr refresh
             text_61.frameNStop = frameN  # exact frame index
@@ -9668,9 +9438,9 @@ thisExp.addData('text_61.stopped', text_61.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9687,7 +9457,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9704,8 +9474,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9733,15 +9503,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "balde"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 baldeComponents = [text_62]
@@ -9777,7 +9544,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_62.setAutoDraw(True)
     if text_62.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_62.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_62.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_62.tStop = t  # not accounting for scr refresh
             text_62.frameNStop = frameN  # exact frame index
@@ -9810,9 +9577,9 @@ thisExp.addData('text_62.stopped', text_62.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9829,7 +9596,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9846,8 +9613,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -9875,15 +9642,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "paraguas"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 paraguasComponents = [text_63]
@@ -9919,7 +9683,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_63.setAutoDraw(True)
     if text_63.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_63.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_63.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_63.tStop = t  # not accounting for scr refresh
             text_63.frameNStop = frameN  # exact frame index
@@ -9952,9 +9716,9 @@ thisExp.addData('text_63.stopped', text_63.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -9971,7 +9735,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -9988,8 +9752,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10017,15 +9781,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "soga"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sogaComponents = [text_64]
@@ -10061,7 +9822,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_64.setAutoDraw(True)
     if text_64.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_64.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_64.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_64.tStop = t  # not accounting for scr refresh
             text_64.frameNStop = frameN  # exact frame index
@@ -10094,9 +9855,9 @@ thisExp.addData('text_64.stopped', text_64.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10113,7 +9874,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10130,8 +9891,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10159,15 +9920,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "pollo"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 polloComponents = [text_65]
@@ -10203,7 +9961,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_65.setAutoDraw(True)
     if text_65.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_65.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_65.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_65.tStop = t  # not accounting for scr refresh
             text_65.frameNStop = frameN  # exact frame index
@@ -10236,9 +9994,9 @@ thisExp.addData('text_65.stopped', text_65.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10255,7 +10013,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10272,8 +10030,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10301,15 +10059,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "fusil"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 fusilComponents = [text_66]
@@ -10345,7 +10100,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_66.setAutoDraw(True)
     if text_66.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_66.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_66.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_66.tStop = t  # not accounting for scr refresh
             text_66.frameNStop = frameN  # exact frame index
@@ -10378,9 +10133,9 @@ thisExp.addData('text_66.stopped', text_66.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10397,7 +10152,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10414,8 +10169,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10443,15 +10198,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "sandía"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 sandíaComponents = [text_67]
@@ -10487,7 +10239,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_67.setAutoDraw(True)
     if text_67.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_67.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_67.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_67.tStop = t  # not accounting for scr refresh
             text_67.frameNStop = frameN  # exact frame index
@@ -10520,9 +10272,9 @@ thisExp.addData('text_67.stopped', text_67.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10539,7 +10291,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10556,8 +10308,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10585,15 +10337,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxxxx"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 xxxxxxxComponents = [text_68]
@@ -10629,7 +10378,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_68.setAutoDraw(True)
     if text_68.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_68.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_68.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_68.tStop = t  # not accounting for scr refresh
             text_68.frameNStop = frameN  # exact frame index
@@ -10662,9 +10411,9 @@ thisExp.addData('text_68.stopped', text_68.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10681,7 +10430,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10698,8 +10447,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10727,15 +10476,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "naipes"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 naipesComponents = [text_69]
@@ -10771,7 +10517,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_69.setAutoDraw(True)
     if text_69.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_69.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_69.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_69.tStop = t  # not accounting for scr refresh
             text_69.frameNStop = frameN  # exact frame index
@@ -10804,9 +10550,9 @@ thisExp.addData('text_69.stopped', text_69.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10823,7 +10569,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10840,8 +10586,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -10869,15 +10615,12 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "bizcocho"-------
 continueRoutine = True
-routineTimer.add(3.000000)
+routineTimer.add(0.300000)
 # update component parameters for each repeat
 # keep track of which components have finished
 bizcochoComponents = [text_70]
@@ -10913,7 +10656,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text_70.setAutoDraw(True)
     if text_70.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_70.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > text_70.tStartRefresh + .3-frameTolerance:
             # keep track of stop time/frame for later
             text_70.tStop = t  # not accounting for scr refresh
             text_70.frameNStop = frameN  # exact frame index
@@ -10946,9 +10689,9 @@ thisExp.addData('text_70.stopped', text_70.tStopRefresh)
 
 # ------Prepare to start Routine "ISI"-------
 continueRoutine = True
+routineTimer.add(5.700000)
 # update component parameters for each repeat
-stim_dur = random()*(2.7)+2
-text_2.setText(str(stim_dur) + " sec.")
+text_2.setText('+')
 # keep track of which components have finished
 ISIComponents = [text_2]
 for thisComponent in ISIComponents:
@@ -10965,7 +10708,7 @@ ISIClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "ISI"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = ISIClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=ISIClock)
@@ -10982,8 +10725,8 @@ while continueRoutine:
         win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
         text_2.setAutoDraw(True)
     if text_2.status == STARTED:
-        # is it time to stop? (based on local clock)
-        if tThisFlip > stim_dur-frameTolerance:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > text_2.tStartRefresh + 5.7-frameTolerance:
             # keep track of stop time/frame for later
             text_2.tStop = t  # not accounting for scr refresh
             text_2.frameNStop = frameN  # exact frame index
@@ -11011,11 +10754,8 @@ while continueRoutine:
 for thisComponent in ISIComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData("FixDur", stim_dur)
 thisExp.addData('text_2.started', text_2.tStartRefresh)
 thisExp.addData('text_2.stopped', text_2.tStopRefresh)
-# the Routine "ISI" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
 
 # ------Prepare to start Routine "xxxxxx_2"-------
 continueRoutine = True
