@@ -931,6 +931,5 @@
   </Routines>
   <Flow>
     <Routine name="trial"/>
-    <Routine name="ma"/>
   </Flow>
 </PsychoPy2experiment>
