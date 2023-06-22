@@ -940,5 +940,9 @@
     <Routine name="ma"/>
     <Routine name="ISI"/>
     <Routine name="fe"/>
+    <Routine name="ISI"/>
+    <Routine name="ma"/>
+    <Routine name="ISI"/>
+    <Routine name="bi"/>
   </Flow>
 </PsychoPy2experiment>
