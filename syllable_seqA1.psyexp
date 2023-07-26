@@ -906,6 +906,29 @@
       </TextComponent>
     </Routine>
     <Routine name="ISI">
+      <MicrophoneComponent name="mic">
+        <Param name="channels" updates="None" val="mono" valType="str"/>
+        <Param name="device" updates="None" val="C-Media(R) Audio: USB Audio (hw:1,0)" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="maxSize" updates="None" val="24000.0" valType="num"/>
+        <Param name="name" updates="None" val="mic" valType="code"/>
+        <Param name="outputType" updates="None" val="wav" valType="code"/>
+        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="speakTimes" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5.7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="transcribe" updates="None" val="False" valType="bool"/>
+        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
+        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
+        <Param name="transcribeWords" updates="None" val="" valType="list"/>
+        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
+      </MicrophoneComponent>
       <TextComponent name="text_32">
         <Param name="color" updates="constant" val="white" valType="color"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -931,29 +954,6 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
-      <MicrophoneComponent name="mic">
-        <Param name="channels" updates="None" val="auto" valType="str"/>
-        <Param name="device" updates="None" val="default" valType="str"/>
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="maxSize" updates="None" val="24000" valType="num"/>
-        <Param name="name" updates="None" val="mic" valType="code"/>
-        <Param name="outputType" updates="None" val="wav" valType="code"/>
-        <Param name="sampleRate" updates="None" val="CD Audio (44.1kHz)" valType="num"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="speakTimes" updates="None" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="5.7" valType="code"/>
-        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="transcribe" updates="None" val="False" valType="bool"/>
-        <Param name="transcribeBackend" updates="None" val="Google" valType="code"/>
-        <Param name="transcribeLang" updates="None" val="en-US" valType="str"/>
-        <Param name="transcribeWords" updates="None" val="" valType="list"/>
-        <Param name="trimSilent" updates="None" val="False" valType="bool"/>
-      </MicrophoneComponent>
     </Routine>
     <Routine name="ISI2">
       <TextComponent name="text_33">
@@ -981,22 +981,22 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
-      <CodeComponent name="code">
+      <CodeComponent name="q1_mic_code">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="mic_q1 = sound.microphone.Microphone(&amp;#10;    device=8, channels=1, &amp;#10;    sampleRateHz=44100, maxRecordingSize=24000.0)" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="mic_q1 = new sound.microphone.Microphone({&quot;device&quot;: 8, &quot;channels&quot;: 1, &quot;sampleRateHz&quot;: 44100, &quot;maxRecordingSize&quot;: 24000.0});&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="mic_q1 = sound.microphone.Microphone(&amp;#10;    device=0, channels=1, &amp;#10;    sampleRateHz=44100, maxRecordingSize=24000.0)" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Py" valType="str"/>
         <Param name="Each Frame" updates="constant" val="if mic_q1.status == NOT_STARTED and t &gt;= 0.4-frameTolerance:&amp;#10;    # keep track of start time/frame for later&amp;#10;    mic_q1.frameNStart = frameN  # exact frame index&amp;#10;    mic_q1.tStart = t  # local t and not account for scr refresh&amp;#10;    mic_q1.tStartRefresh = tThisFlipGlobal  # on global time&amp;#10;    win.timeOnFlip(mic_q1, 'tStartRefresh')  # time at next scr refresh&amp;#10;    # add timestamp to datafile&amp;#10;    thisExp.addData('mic_q1.started', t)&amp;#10;    # start recording with mic&amp;#10;    mic_q1.start()&amp;#10;    mic_q1.status = STARTED&amp;#10;if mic_q1.status == STARTED:&amp;#10;    # update recorded clip for mic&amp;#10;    mic_q1.poll()&amp;#10;if mic_q1.status == STARTED:&amp;#10;    # is it time to stop? (based on global clock, using actual start)&amp;#10;    if tThisFlipGlobal &gt; mic_q1.tStartRefresh + 4.55-frameTolerance:&amp;#10;        # keep track of stop time/frame for later&amp;#10;        mic_q1.tStop = t  # not accounting for scr refresh&amp;#10;        mic_q1.frameNStop = frameN  # exact frame index&amp;#10;        # add timestamp to datafile&amp;#10;        thisExp.addData('mic_q1.stopped', t)&amp;#10;        # stop recording with mic&amp;#10;        mic_q1.stop()&amp;#10;        mic_q1.status = FINISHED" valType="extendedCode"/>
-        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Experiment" updates="constant" val="for tag_q1 in mic_q1.clips:&amp;#10;    for i, clip in enumerate(mic_q1.clips[tag_q1]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag_q1&amp;#10;        print(i)&amp;#10;        print(clip)&amp;#10;        # if there's more than 1 clip with this tag, append a counter for all beyond the first&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;        clip.save(os.path.join(micRecFolder, clipFilename))```" valType="extendedCode"/>
-        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="mic_q1.stop()&amp;#10;tag_q1 = data.utils.getDateStr()&amp;#10;micClip = mic_q1.bank(tag=tag, &amp;#10;    transcribe='None',&amp;#10;    config=None&amp;#10;)   &amp;#10;q1_trials.addData('mic_q1.clip', os.path.join(micRecFolder, 'recording_mic_%s.wav' % tag_q1))" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if (((mic_q1.status === NOT_STARTED) &amp;&amp; (t &gt;= (0.4 - frameTolerance)))) {&amp;#10;    mic_q1.frameNStart = frameN;&amp;#10;    mic_q1.tStart = t;&amp;#10;    mic_q1.tStartRefresh = tThisFlipGlobal;&amp;#10;    psychoJS.window.timeOnFlip(mic_q1, &quot;tStartRefresh&quot;);&amp;#10;    psychoJS.experiment.addData(&quot;mic_q1.started&quot;, t);&amp;#10;    mic_q1.start();&amp;#10;    mic_q1.status = PsychoJS.Status.STARTED;&amp;#10;}&amp;#10;if ((mic_q1.status === PsychoJS.Status.STARTED)) {&amp;#10;    mic_q1.poll();&amp;#10;}&amp;#10;if ((mic_q1.status === PsychoJS.Status.STARTED)) {&amp;#10;    if ((tThisFlipGlobal &gt; ((mic_q1.tStartRefresh + 4.55) - frameTolerance))) {&amp;#10;        mic_q1.tStop = t;&amp;#10;        mic_q1.frameNStop = frameN;&amp;#10;        psychoJS.experiment.addData(&quot;mic_q1.stopped&quot;, t);&amp;#10;        mic_q1.stop();&amp;#10;        mic_q1.status = PsychoJS.Status.FINISHED;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="for tag_q1 in mic_q1.clips:&amp;#10;    for i, clip in enumerate(mic_q1.clips[tag_q1]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag_q1&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;            clip.save(clipFilename)" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="mic_q1.stop()&amp;#10;tag_q1 = data.utils.getDateStr()&amp;#10;micClip = mic_q1.bank(tag=tag, transcribe='None',config=None)&amp;#10;q1_trials.addData('mic_q1.clip', os.path.join('./recording_mic_%s.wav' % tag_q1))" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="code" valType="code"/>
+        <Param name="name" updates="None" val="q1_mic_code" valType="code"/>
       </CodeComponent>
     </Routine>
   </Routines>
