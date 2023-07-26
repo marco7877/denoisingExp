@@ -994,7 +994,7 @@
         <Param name="End Experiment" updates="constant" val="for tag_q1 in mic_q1.clips:&amp;#10;    for i, clip in enumerate(mic_q1.clips[tag_q1]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag_q1&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;            clip.save(clipFilename)" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
         <Param name="End JS Routine" updates="constant" val="/* Syntax Error: Fix Python code */" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="mic_q1.stop()&amp;#10;tag_q1 = data.utils.getDateStr()&amp;#10;micClip = mic_q1.bank(tag=tag, transcribe='None',config=None)&amp;#10;q1_trials.addData('mic_q1.clip', os.path.join('./recording_mic_%s.wav' % tag_q1))" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="mic_q1.stop()&amp;#10;tag_q1 = data.utils.getDateStr()&amp;#10;micClip = mic_q1.bank(tag=tag_q1, transcribe='None',config=None)&amp;#10;q1_trials.addData('mic_q1.clip', os.path.join('./recording_mic_%s.wav' % tag_q1))" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="q1_mic_code" valType="code"/>
       </CodeComponent>
